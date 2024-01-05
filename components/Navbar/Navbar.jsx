@@ -8,16 +8,16 @@ import CloseIcon from '@mui/icons-material/Close';
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "about",
 
   },
   {
     title: "Menu",
-    path: "#menu",
+    path: "menu",
   },
   {
     title: "Contact Us",
-    path: "#contact",
+    path: "contact",
   },
   
 ];
