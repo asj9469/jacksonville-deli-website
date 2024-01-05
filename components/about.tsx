@@ -29,12 +29,12 @@ export default function AboutPage () {
             <div>
                 <h1 className='font-serif text-2xl lg:text-3xl lg:mb-2 text-[#e9b824]'>Location:</h1>
                 <p className='font-sans text-lg lg:text-xl mb-2'>1786 Jacksonville Jobstown Rd,</p>
-                <p className='font-sans text-lg lg:text-xl'>Fieldsboro, NJ 08505</p>
+                <p className='font-sans text-lg lg:text-xl'>Bordentown, NJ 08505</p>
 
                 <h1 className='font-serif text-2xl lg:text-3xl mt-8 mb-2 text-[#e9b824]'>Hours of Operation:</h1>
-                <p className='font-sans text-lg lg:text-xl mb-2'>Monday - Friday: 6:30 AM – 6 PM</p>
-                <p className='font-sans text-lg lg:text-xl mb-2'>Saturday: 6:30 AM – 3:30 PM</p>
-                <p className='font-sans text-lg lg:text-xl mb-2'>Sunday: Closed</p>
+                <p className='font-sans text-lg lg:text-xl mb-2'>Monday - Friday 6:30 AM – 6 PM</p>
+                <p className='font-sans text-lg lg:text-xl mb-2'>Saturday 6:30 AM – 3:30 PM</p>
+                <p className='font-sans text-lg lg:text-xl mb-2'>Sunday Closed</p>
 
                 <h1 className='font-serif text-2xl lg:text-3xl mt-8 mb-2 text-[#e9b824]'>Phone:</h1>
                 <p className='font-sans text-lg lg:text-xl mb-2'>(609) 261-5060</p>
