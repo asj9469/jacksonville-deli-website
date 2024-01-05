@@ -2,7 +2,7 @@
 import React, {useEffect} from 'react'
 import {Loader} from "@googlemaps/js-api-loader"
 
-export default function about () {
+export default function AboutPage () {
     useEffect(() => {
         (async () => {
             const loader = new Loader({
@@ -20,7 +20,7 @@ export default function about () {
             //     position: { lat: 40.05004659684758, lng: -74.76340597054757 },
             // });
         })();
-    },[])
+    },[]);
 
   return (
     <div>
