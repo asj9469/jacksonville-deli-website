@@ -40,6 +40,7 @@ export default function AboutPage () {
                 <p className='font-sans text-lg lg:text-xl mb-2'>(609) 261-5060</p>
             </div>
         </div>
+        <div className='bg-black h-[5rem]'/>
     </div>
   )
 }

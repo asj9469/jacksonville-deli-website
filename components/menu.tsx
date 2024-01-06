@@ -57,7 +57,7 @@ export default function MenuList ({types, extras, menuList}:any) {
             </div>  
           </div>
         )}
-        <div className='bg-black h-[5rem]'/>
+        {/* <div className='bg-black h-[5rem]'/> */}
       </div>
   )
 }

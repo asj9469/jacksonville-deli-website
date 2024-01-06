@@ -39,15 +39,17 @@ export default async function Home() {
         </div>
       </section>
 
+
+      <section id="menu">
+        <h1 className="text-5xl font-serif text-center mt-20 mb-8">Menu</h1>
+        <MenuList types={types} extras={extras} menuList={menuList} />
+      </section>
+
       <section id="about">
         <h1 className="text-5xl font-serif text-center mt-28 mb-8">About</h1>
        <AboutPage></AboutPage>
       </section>
-
-      <section id="menu" className="h-[85%]">
-        <h1 className="text-5xl font-serif text-center mt-20 mb-8">Menu</h1>
-        <MenuList types={types} extras={extras} menuList={menuList} />
-      </section>
+      
     </main>
     
   )
