@@ -23,9 +23,9 @@ export default function AboutPage () {
     },[]);
 
   return (
-    <div>
+    <div className=''>
         <div className='flex flex-col items-center md:flex-row md:gap-20 lg:gap-32 md:mt-20'>
-            <div className="border-8 border-[#deab12] rounded-xl shadow-lg m-auto mb-10 w-[85%] h-[15rem] md:m-0 md:ml-20 lg:ml-44 md:w-2/5 md:h-[25rem]" id="map"/>
+            <div className="border-8 border-[#deab12] rounded-xl shadow-lg m-auto mb-10 w-[85%] h-[20rem] md:m-0 md:ml-20 lg:ml-30 md:w-2/5 md:h-[25rem]" id="map"/>
             <div>
                 <h1 className='font-serif text-2xl lg:text-3xl lg:mb-2 text-[#e9b824]'>Location:</h1>
                 <p className='font-sans text-lg lg:text-xl mb-2'>1786 Jacksonville Jobstown Rd,</p>
