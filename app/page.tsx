@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar/Navbar.jsx"
 import Image from 'next/image'
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-// import type { Database } from "@/types/supabase";
 import MenuList from "@/components/menu"
 import AboutPage from "@/components/about"
 
