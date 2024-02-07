@@ -27,7 +27,7 @@ export default function MenuList ({types, extras, menuList}:any) {
                           )}
 
                           {menu.with_meat != null
-                          ? (<p className='text-xs md:text-base lg:text-lg lg:pl-1'>(S) &nbsp; ${menu.with_meat} (Meat)</p>)
+                          ? (<p className='text-xs md:text-base lg:text-lg lg:pl-1'>(S) &nbsp; ${menu.with_meat} (w/ Meat)</p>)
                           : (null)}
                           
                       </div>

@@ -3,12 +3,12 @@ import Navbar from "@/components/Navbar/Navbar.jsx"
 import Image from 'next/image'
 import { cookies } from "next/headers";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
-import type { Database } from "@/types/supabase";
+// import type { Database } from "@/types/supabase";
 import MenuList from "@/components/menu"
 import AboutPage from "@/components/about"
 
 export default async function Home() {
-  const supabase = createServerComponentClient<Database>({ cookies });
+  const supabase = createServerComponentClient<any>({ cookies });
   
   const {data: menuList, error} = await supabase
     .from('menu')
