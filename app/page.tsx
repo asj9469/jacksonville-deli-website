@@ -1,31 +1,17 @@
 import React from "react";
 import Navbar from "@/components/Navbar/Navbar.jsx"
 import Image from 'next/image'
-import { cookies } from "next/headers";
-import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import MenuList from "@/components/menu"
 import AboutPage from "@/components/about"
+import Notice from "@/components/notice"
 
-export default async function Home() {
-  const supabase = createServerComponentClient<any>({ cookies });
+export default function Home() {
   
-  const {data: menuList, error} = await supabase
-    .from('menu')
-    .select()
-
-  const {data: types} = await supabase
-    .from("types")
-    .select()
-
-  const {data: extras} = await supabase
-    .from("extras")
-    .select()
-
-  if(error){
-    console.log("Error: There was an error fetching the data from Supabase")
-  }
-
+  
+  
   return (
+    <>
+    <Notice/>
     <main className="h-screen">
       <Navbar/>
       <section id="main" className='h-screen relative'>
@@ -41,7 +27,7 @@ export default async function Home() {
 
       <section id="menu">
         <h1 className="text-5xl font-serif text-center mt-20 mb-8">Menu</h1>
-        <MenuList types={types} extras={extras} menuList={menuList} />
+        <MenuList/>
       </section>
 
       <section id="about">
@@ -50,6 +36,6 @@ export default async function Home() {
       </section>
       
     </main>
-    
+    </>
   )
 }
