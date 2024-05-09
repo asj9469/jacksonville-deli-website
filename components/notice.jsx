@@ -23,7 +23,7 @@ export default function Notice () {
             </div>
             
             <p className="mt-[-25px] font-extrabold text-center text-[#000000] text-lg">
-                The following has been updated (5/9/24):
+                The following has been updated (5/9/2024):
             </p>
             <p className="mb-3 mt-1 font-semibold text-center text-black text-lg">
                 Hours of Operation - Saturday open time changed from 6:30 AM to 7:30 AM
