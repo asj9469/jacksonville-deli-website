@@ -11,7 +11,7 @@ export default function Home() {
   
   return (
     <>
-    <Notice/>
+    {/* <Notice/> */}
     <main className="h-screen">
       <Navbar/>
       <section id="main" className='h-screen relative'>
